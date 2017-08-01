@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    
+    <!-- You can have as many remote repositories as you like. -->
+    <remote name="cbm"      fetch="https://bitbucket.org/ric-cbm"               />
+    <remote name="dephy"    fetch="https://github.com/JFDuval"                  />
+    
+    <!-- List all the repositories you want to fetch, where:
+            >> "name":      git repository's name on hosting server
+            >> "remote":    the remote host from above (if not the default)
+            >> "revision":  commitish to checkout (if not the default)
+            >> "path":      directory where git repository gets cloned/synced
+    -->
+    
+	<!-- RICNU-Plan Microcontroller Project -->
+	<project name="arm-stm-ricnu-hlci"			revision="refs/heads/master"	remote="cbm"	path="RICNU_Knee_HLCI/RICNU-Plan/RICNU-Plan-STM32-test"/>
+	<!-- RICNU-Plan Blutooth Module Project -->
+	<project name="bg-bt121-ricnu-hlci"			revision="refs/heads/master"	remote="cbm"	path="RICNU_Knee_HLCI/RICNU-Plan/RICNU-Plan-BT121-test"/>
+	<!-- RICNU-User Android Project -->
+	<project name="android-ricnu-hlci"			revision="refs/heads/master"	remote="cbm"	path="RICNU_Knee_HLCI/RICNU-User/RICNU-User-Android-test"/>
+	
+</manifest>
