@@ -17,8 +17,8 @@
 	<project name="arm-stm-ricnu-hlci"			revision="master"	remote="cbm"	path="RICNU-Plan/RICNU-Plan-STM32-test"/>
 	-->
 	<!-- RICNU-Plan Blutooth Module Project -->
-	<project name="bg-bt121-ricnu-hlci"			revision="refs/heads/master"	remote="cbm"	path="RICNU-Plan/RICNU-Plan-BT121-test"/>
+	<project name="bg-bt121-ricnu-hlci"			revision="refs/heads/master"	remote="cbm"	path="RICNU-Plan/RICNU-Plan-BT121"/>
 	<!-- RICNU-User Android Project -->
-	<project name="android-ricnu-hlci"			revision="refs/heads/master"	remote="cbm"	path="RICNU-User/RICNU-User-Android-test"/>
+	<project name="android-ricnu-hlci"			revision="refs/heads/master"	remote="cbm"	path="RICNU-User/RICNU-User-Android"/>
 	
 </manifest>
