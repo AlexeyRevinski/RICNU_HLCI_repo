@@ -15,7 +15,7 @@
     
 	
 	<!-- Libraries: CMSIS for RICNU-Plan (STM32) -->
-	<project name="CMSIS"						revision="refs/heads/master"							remote="arm"	path="RICNU-Plan/RICNU-Plan-STM32-test"
+	<project name="CMSIS"						revision="refs/heads/master"							remote="arm"	path="RICNU-Plan/RICNU-Plan-STM32-test"/>
 	
 	
 	<!-- FlexSEA libraries -->
