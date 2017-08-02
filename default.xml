@@ -4,7 +4,7 @@
     <!-- You can have as many remote repositories as you like. -->
     <remote name="cbm"      fetch="https://bitbucket.org/ric-cbm"               />
     <remote name="dephy"    fetch="https://github.com/JFDuval"                  />
-	<remote name="arm"		fetch="https://github.com/ARM-software				/>
+	<remote name="arm"		fetch="https://github.com/ARM-software"				/>
     
     <!-- List all the repositories you want to fetch, where:
             >> "name":      git repository's name on hosting server
