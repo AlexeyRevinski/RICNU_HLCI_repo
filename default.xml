@@ -4,19 +4,13 @@
     <!-- You can have as many remote repositories as you like. -->
     <remote name="cbm"      fetch="https://bitbucket.org/ric-cbm"               />
     <remote name="dephy"    fetch="https://github.com/JFDuval"                  />
-	<remote name="arm"		fetch="https://github.com/ARM-software"				/>
     
     <!-- List all the repositories you want to fetch, where:
             >> "name":      git repository's name on hosting server
             >> "remote":    the remote host from above (if not the default)
             >> "revision":  commitish to checkout (if not the default)
             >> "path":      directory where git repository gets cloned/synced
-    -->
-    
-	
-	<!-- Libraries: CMSIS for RICNU-Plan (STM32) -->
-	<project name="CMSIS"						revision="refs/heads/master"							remote="arm"	path="RICNU-Plan/RICNU-Plan-STM32-test"/>
-	
+    -->	
 	
 	<!-- FlexSEA libraries -->
 	<project name="flexsea-comm"				revision="768d7578119981ae13bf1ea546d7e01e92ac6b42"		remote="dephy"	path="FlexSEA/flexsea-comm"/>
