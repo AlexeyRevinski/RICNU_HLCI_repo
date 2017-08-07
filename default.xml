@@ -13,9 +13,9 @@
     -->	
 	
 	<!-- FlexSEA libraries -->
-	<project name="flexsea-comm"                revision="refs/heads/master"   		remote="dephy"	path="FlexSEA/flexsea-comm"/>
-	<project name="flexsea-system"              revision="refs/heads/master"   		remote="dephy"	path="FlexSEA/flexsea-system"/>
-	<project name="flexsea-user"                revision="refs/heads/master"   		remote="dephy"	path="FlexSEA/flexsea-user"/>
+	<project name="flexsea-comm"                revision="refs/heads/master"   uuid="1a4f2ad0bf9e96ec2d2072c7ca3ab8a48ea4fe5a"    remote="dephy"      path="FlexSEA/flexsea-comm"             />
+	<project name="flexsea-system"              revision="refs/heads/master"   uuid="08528a959cd21b6cf2c04b8ae29308807914d7ea"    remote="dephy"      path="FlexSEA/flexsea-system"           />
+    <project name="flexsea-user"                revision="refs/heads/master"   uuid="228e52ed0fec2d93595358a910b536ba5a97fd09"    remote="dephy"      path="FlexSEA/flexsea-user"             />
 	
 	<!-- RICNU-Knee Projects -->
 	<!--<project name="arm-stm-ricnu-hlci"			revision="master"	remote="cbm"	path="RICNU-Plan/RICNU-Plan-STM32-test"/>-->
