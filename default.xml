@@ -18,8 +18,8 @@
     <project name="flexsea-user"                revision="refs/heads/master"   uuid="228e52ed0fec2d93595358a910b536ba5a97fd09"    remote="dephy"      path="FlexSEA/flexsea-user"             />
 	
 	<!-- RICNU-Knee Projects -->
-	<!--<project name="arm-stm-ricnu-hlci"			revision="master"	remote="cbm"	path="RICNU-Plan/RICNU-Plan-STM32-test"/>-->
 	<project name="bg-bt121-ricnu-hlci"			revision="refs/heads/master"		remote="cbm"	path="RICNU-Plan/RICNU-Plan-BT121"/>
+	<project name="arm-stm-ricnu-hlci"			revision="refs/heads/master"		remote="cbm"	path="RICNU-Plan/RICNU-Plan-STM32"/>
 	<project name="android-ricnu-hlci"			revision="refs/heads/master"		remote="cbm"	path="RICNU-User/RICNU-User-Android"/>
 	
 </manifest>
