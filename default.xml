@@ -4,6 +4,7 @@
     <!-- You can have as many remote repositories as you like. -->
     <remote name="cbm"      fetch="https://bitbucket.org/ric-cbm"               />
     <remote name="dephy"    fetch="https://github.com/JFDuval"                  />
+	<remote name="ricnu"	fetch="https://github.com/AlexeyRevinski"			/>
     
     <!-- List all the repositories you want to fetch, where:
             >> "name":      git repository's name on hosting server
@@ -18,8 +19,18 @@
     <project name="flexsea-user"                revision="refs/heads/master"   uuid="228e52ed0fec2d93595358a910b536ba5a97fd09"    remote="dephy"      path="FlexSEA/flexsea-user"             />
 	
 	<!-- RICNU-Knee Projects -->
+	<!--
 	<project name="bg-bt121-ricnu-hlci"			revision="refs/heads/master"		remote="cbm"	path="RICNU-Plan/RICNU-Plan-BT121"/>
 	<project name="arm-stm-ricnu-hlci"			revision="refs/heads/master"		remote="cbm"	path="RICNU-Plan/RICNU-Plan-STM32"/>
 	<project name="android-ricnu-hlci"			revision="refs/heads/master"		remote="cbm"	path="RICNU-User/RICNU-User-Android"/>
+	-->
+	
+	<project name="RICNU_HLCI_doc"				revision="refs/heads/master"		remote="ricnu"	path="README"/>
+	<project name="RICNU_HLCI_board"			revision="refs/heads/master"		remote="ricnu"	path="RICNU-Plan/RICNU-Plan-Board/RICNU_Plan_v_1_0"/>
+	<project name="RICNU_HLCI_bt121"			revision="refs/heads/master"		remote="ricnu"	path="RICNU-Plan/RICNU-Plan-BT121"/>
+	<project name="RICNU_HLCI_stm32"			revision="refs/heads/master"		remote="ricnu"	path="RICNU-Plan/RICNU-Plan-STM32"/>
+	<project name="RICNU_HLCI_userapp_android"	revision="refs/heads/master"		remote="ricnu"	path="RICNU-User/RICNU-User-Android"/>
+	<project name="RICNU_HLCI_xsd"				revision="refs/heads/master"		remote="ricnu"	path="RICNU-XML/RICNU-XML-Schemas"/>
+	<project name="RICNU_HLCI_xml"				revision="refs/heads/master"		remote="ricnu"	path="RICNU-XML/RICNU-XML-Examples"/>
 	
 </manifest>
